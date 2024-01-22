@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
 
-// Exercício 3 de matrizes do slide (Aula 02 - Matrizes)
-
 int SelectChoice() {
 	
 	int choice1;

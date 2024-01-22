@@ -31,13 +31,23 @@ int main() {
 		for (j = 0; j < 5; j++) {
 			
 			mat[i][j] = k;
-				
-			printf("mat[%d][%d]: %d\n", i, j, mat[i][j]);
-				
-			k++;
-				
-		}
 			
+			if (mat[i][j] <= 10) {
+				
+				printf("%d    ", mat[i][j]);
+				
+			} else {
+				
+				printf("%d   ", mat[i][j]);
+				
+			}
+			
+			k++;
+			
+		}
+		
+		printf("\n");
+		
 	}	
 	
 	ExibirAcimDiagPrinc(mat);

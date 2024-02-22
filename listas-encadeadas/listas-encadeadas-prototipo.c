@@ -21,7 +21,7 @@ void inserir_no_inicio(No **lista, int numero) {
 		
 	} else {
 		
-		printf("EspaÁo de memÛria para o ponteiro n„o alocado!\n");
+		printf("Espa√ßo de mem√≥ria para o ponteiro n√£o alocado!\n");
 		
 	}
 	
@@ -68,9 +68,9 @@ int main() {
 		do {
 			
 			printf(">>> Para a lista, digite:\n\n");
-			printf("1 - Inserir valor n˙merico;\n2 - Verificar elementos na lista;\n3 - Remover valor n˙merico;\n4 - Sair.\n\n");
+			printf("1 - Inserir valor n√∫merico;\n2 - Verificar elementos na lista;\n3 - Remover valor n√∫merico;\n4 - Sair.\n\n");
 				
-			printf("==> OpÁ„o: ");
+			printf("==> Op√ß√£o: ");
 			scanf("%d", &opcao);	
 				
 			switch(opcao){
@@ -130,7 +130,7 @@ int main() {
 				break;
 			
 			default:
-				printf("OpÁ„o Inv·lida!\n");
+				printf("Op√ß√£o Inv√°lida!\n");
 				printf("Digite alguma tecla para tentar novamente: ");
 				getch();
 				system("cls");
